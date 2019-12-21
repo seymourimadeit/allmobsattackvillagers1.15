@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory
+credits="TallestEgg" #optional
+authors="TallestEgg" #optional
+
+[[mods]] #mandatory
+modId="allmobsattackvillagers" #mandatory
+version="1.0" #mandatory
+displayName="All Mobs Attack Villagers"#mandatory
+description='''
+dude title says it all
+'''
+
+[[dependencies.allmobsattackvillagers]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.allmobsattackvillagers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.1]"
+    ordering="NONE"
+    side="BOTH"
